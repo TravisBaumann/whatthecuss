@@ -40,6 +40,12 @@ function replaceText(v)
     v = v.replace(/\bshit(ting|ter|ters|s|ty|ton|tons|load)\b/g, "cuss$1");
     v = v.replace(/\bShit(ting|ter|ters|s|ty|ton|tons|load)\b/g, "Cuss$1");
     v = v.replace(/\bSHIT(TING|TER|TERS|S|TY|TON|TONS|LOAD)\b/g, "CUSS$1");
+    v = v.replace(/\bbullshit,\b/g "bullcuss$1"); 
+    v = v.replace(/\bbBULLSHIT,\b/g "BULLCUSS$1");    
+    v = v.replace(/\bbullshit(|ting|ter|ters|s|ty|ton|tons|load)\b/g, "bullcuss");
+    v = v.replace(/\bBULLSHIT(TING|TER|TERS|S|TY|TON|TONS|LOAD)\b/g, "BULLCUSS$1");
+
+
 
 
     // Damn or Dammit
